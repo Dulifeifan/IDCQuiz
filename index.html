@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Quiz</title>
+    
+    <script type="text/javascript" src="./jquery.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./quiz.css" />
+</head>
+<body class="text-center">
+    
+    <div class="emailAndName">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Welcome to Quiz</h1>
+                <p class="lead">Please input your email and name here.</p>
+            </div>
+        </div>
+
+        <label for="emailAdd" class="sr-only">Email Address</label>
+        <input type="email" name="emailAdd" id="emailAdd" class="form-control" placeholder="Email Address" required autofocus />
+
+        <label for="userName" class="sr-only">Name</label>
+        <input type="text" name="userName" id="userName" class="form-control" placeholder="Name" required />
+
+        <button id="submitInfo" class="btn btn-lg btn-primary btn-block">Submit Infomation</button>
+        <br />
+        <div class="alert alert-danger disappear" id="emailAndNameAlert" role="alert">
+            
+        </div>
+
+    </div>
+    <div class="promtBeforeQuiz disappear">
+        <div>
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-4">Welcome to Quiz</h1>
+                    <p class="lead">You will have 3 min to finish 10 quiz. You cannot pause the process after you started.</p>
+                </div>
+            </div>
+            
+            <button id="startQuiz" class="btn btn-lg btn-primary btn-block">Start Quiz</button>
+        </div>
+    </div>
+    <div class="quiz disappear">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="countDownDiv lead">
+                    <p>Time Left: <span id="countDownNumber"></span> s</p>
+                </div>
+                <progress max="10" value="0"></progress>   <span id="currentQuizIndex"></span><span> / 10</span>
+
+            </div>
+        </div>
+        
+        
+        <hr />
+        <div id="questionContent">
+
+        </div>
+        <hr />
+        <div id="options">
+
+        </div>
+        <button id="previousButton" class="disappear btn btn-lg btn-primary btn-block">Previous</button>
+        <button id="nextButton" class="btn btn-lg btn-primary btn-block">Next</button>
+        <button id="skipButton" class="btn btn-lg btn-primary btn-block">Skip</button>
+        <button id="submitButton" class="disappear btn btn-lg btn-primary btn-block">Submit</button>
+        <div class="alert alert-danger disappear" id="quizAlert" role="alert">
+
+        </div>
+    </div>
+    <div class="report disappear bigFont">
+        <div class="alert alert-danger disappear" id="runOutOfTimeAlert" role="alert">
+            Ran out of time
+        </div>
+        <div>
+            Name: <span id="reportName"></span>
+        </div>
+        <div>
+            Email: <span id="reportEmail"></span>
+        </div>
+        <hr />
+        <div>
+            Time Left: <span id="reportTimeLeft"></span> s
+        </div>
+        <div>
+            Answered <span id="reportAnsweredQuestions"></span> / 10 Questions
+        </div>
+        <div>
+            Your Score: <span id="reportScore"></span> / 10
+        </div>
+        <hr />
+        <div>
+            Your Answers:
+            <div id="reportAnswers">
+
+            </div>
+        </div>
+        <input type="button" id="reportPrintButton" value="Print" onclick="printpage()" class="btn btn-lg btn-primary btn-block" />
+    </div>
+
+
+    <script type="text/javascript" src="./quiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,1041 @@
+[
+  {
+    "questionId": 1,
+    "question": [
+      {
+        "content": "What is the sum of 2 and 1?",
+        "contentType": "Textual or numeric"
+      }
+    ],
+    "optionType": "Single choice",
+    "correctOptionId": 2,
+    "options": [
+      {
+        "optionId": 1,
+        "option": 2,
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 2,
+        "option": 3,
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 3,
+        "option": 4,
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 4,
+        "option": 5,
+        "optionType": "Textual or numeric"
+      }
+    ]
+  },
+  {
+    "questionId": 2,
+    "question": [
+      {
+        "content": "What are the first few digits of PI?",
+        "contentType": "Textual or numeric"
+      }
+    ],
+    "optionType": "Single choice",
+    "correctOptionId": 3,
+    "options": [
+      {
+        "optionId": 1,
+        "option": 2.1415926,
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 2,
+        "option": "3.1514926 [Always the 4th option]",
+        "optionType": "Textual or numeric",
+        "fix": 4
+      },
+      {
+        "optionId": 3,
+        "option": 3.1415926,
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 4,
+        "option": 2.1514926,
+        "optionType": "Textual or numeric"
+      }
+    ]
+  },
+  {
+    "questionId": 3,
+    "question": [
+      {
+        "content": "What is the correct address of Ideal Concepts?",
+        "contentType": "Textual or numeric"
+      }
+    ],
+    "optionType": "Single choice",
+    "correctOptionId": 3,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "665 Union Boulevard",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 2,
+        "option": "666 Union Boulevard",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 3,
+        "option": "667 Union Boulevard",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 4,
+        "option": "668 Union Boulevard",
+        "optionType": "Textual or numeric"
+      }
+    ]
+  },
+  {
+    "questionId": 4,
+    "question": [
+      {
+        "content": "You are answering a quiz.",
+        "contentType": "Textual or numeric"
+      }
+    ],
+    "optionType": "True/False",
+    "correctOptionId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "True",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 2,
+        "option": "False",
+        "optionType": "Textual or numeric"
+      }
+    ]
+  },
+  {
+    "questionId": 5,
+    "question": [
+      {
+        "content": "Which of the following are programming languages?",
+        "contentType": "Textual or numeric"
+      }
+    ],
+    "optionType": "Multiple choices",
+    "correctOptionId": [ 1, 2, 3, 4 ],
+    "options": [
+      {
+        "optionId": 1,
+        "option": "C",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 2,
+        "option": "C++",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 3,
+        "option": "Java [Always the 3rd option]",
+        "optionType": "Textual or numeric",
+        "fix": 3
+      },
+      {
+        "optionId": 4,
+        "option": "Python",
+        "optionType": "Textual or numeric"
+      }
+    ]
+  },
+  {
+    "questionId": 6,
+    "question": [
+      {
+        "content": "Which is related to a rabbit?",
+        "contentType": "Textual or numeric"
+      },
+      {
+        "content": "[Always the 2nd question]",
+        "contentType": "Always"
+      }
+    ],
+    "fix": 2,
+    "optionType": "Single choice",
+    "correctOptionId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "https://crosslight.org.au/wp-content/uploads/2019/04/michael-roubos-526140-unsplash.jpg",
+        "optionType": "Image-based"
+      },
+      {
+        "optionId": 2,
+        "option": "https://www.healthypawspetinsurance.com/blog/wp-content/uploads/brushing_dog_teeth-1024x1024.jpg",
+        "optionType": "Image-based"
+      },
+      {
+        "optionId": 3,
+        "option": "&lt;h1&gt;TIGER!&lt;/h1&gt;",
+        "optionType": "Code/HTML snippets"
+      },
+      {
+        "optionId": 4,
+        "option": "Cat",
+        "optionType": "Textual or numeric"
+      }
+    ]
+  },
+  {
+    "questionId": 7,
+    "question": [
+      {
+        "content": "What's his name?",
+        "contentType": "Textual or numeric"
+      },
+      {
+        "content": "https://media.npr.org/assets/img/2020/11/01/gettyimages-1256154622_custom-75dab75fd97ed1b3b9a761385d2c33284789bc3b-s800-c85.jpg",
+        "contentType": "Image-based"
+      }
+    ],
+    "optionType": "Single choice",
+    "correctOptionId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Joe Biden",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 2,
+        "option": "Joe Baiden [Always the 2nd option]",
+        "optionType": "Textual or numeric",
+        "fix": 2
+      },
+      {
+        "optionId": 3,
+        "option": "Jae Biden",
+        "optionType": "Textual or numeric"
+      }
+    ]
+  },
+  {
+    "questionId": 8,
+    "question": [
+      {
+        "content": "What is the result of 1234 * 5678?",
+        "contentType": "Textual or numeric"
+      }
+    ],
+    "optionType": "Single choice",
+    "correctOptionId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": 7006652,
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 2,
+        "option": 7116652,
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 3,
+        "option": 7016652,
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 4,
+        "option": 7106652,
+        "optionType": "Textual or numeric"
+      }
+    ]
+  },
+  {
+    "questionId": 9,
+    "question": [
+      {
+        "content": "His name is Joe Biden.",
+        "contentType": "Textual or numeric"
+      },
+      {
+        "content": "https://media.npr.org/assets/img/2020/11/01/gettyimages-1256154622_custom-75dab75fd97ed1b3b9a761385d2c33284789bc3b-s800-c85.jpg",
+        "contentType": "Image-based"
+      }
+    ],
+    "optionType": "True/False",
+    "correctOptionId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "True",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 2,
+        "option": "False",
+        "optionType": "Textual or numeric"
+      }
+    ]
+  },
+  {
+    "questionId": 10,
+    "question": [
+      {
+        "content": "Which are the photos of Joe Biden?",
+        "contentType": "Textual or numeric"
+      }
+    ],
+    "optionType": "Multiple choices",
+    "correctOptionId": [ 1, 2 ],
+    "options": [
+      {
+        "optionId": 1,
+        "option": "https://media.npr.org/assets/img/2020/11/01/gettyimages-1256154622_custom-75dab75fd97ed1b3b9a761385d2c33284789bc3b-s800-c85.jpg",
+        "optionType": "Image-based"
+      },
+      {
+        "optionId": 2,
+        "option": "https://images.moneycontrol.com/static-mcnews/2021/01/AP21015044289476-1-770x433.jpg?impolicy=website&width=770&height=431",
+        "optionType": "Image-based"
+      },
+      {
+        "optionId": 3,
+        "option": "https://www.whitehouse.gov/wp-content/uploads/2021/01/45_donald_trump.jpg",
+        "optionType": "Image-based"
+      },
+      {
+        "optionId": 4,
+        "option": "https://www.biography.com/.image/t_share/MTE4MDAzNDEwNzg5ODI4MTEw/barack-obama-12782369-1-402.jpg",
+        "optionType": "Image-based"
+      }
+    ]
+  },
+
+  {
+    "questionId": 11,
+    "question": [
+      {
+        "content": "What is the use of the",
+        "contentType": "Textual or numeric"
+      },
+      {
+        "content": "Volatile",
+        "contentType": "Code/HTML snippets"
+      },
+      {
+        "content": "keyword in Java?",
+        "contentType": "Textual or numeric"
+      }
+    ],
+    "optionType": "Multiple choices",
+    "correctOptionId": [ 1, 2 ],
+    "options": [
+      {
+        "optionId": 1,
+        "option": "It is used to mark a Java variable as \"being stored in main memory\". ",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 2,
+        "option": "It guarantees visibility of changes to variables across threads.",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 3,
+        "option": "It serializes an Object and sends it to the output stream.",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 4,
+        "option": "It is used to read a file.",
+        "optionType": "Textual or numeric"
+      }
+    ]
+  },
+  {
+    "questionId": 12,
+    "question": [
+      {
+        "content": "Adding which of the following to the end of the code will make the code without formatting errors?",
+        "contentType": "Textual or numeric"
+      },
+      {
+        "content": "&lt;div&gt;I am taking an exam!",
+        "contentType": "Code/HTML snippets"
+      }
+    ],
+    "optionType": "Single choice",
+    "correctOptionId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "&lt;/div&gt;",
+        "optionType": "Code/HTML snippets"
+      },
+      {
+        "optionId": 2,
+        "option": "&lt;div&gt;No you are not &lt;/div&gt;",
+        "optionType": "Code/HTML snippets"
+      },
+      {
+        "optionId": 3,
+        "option": "&lt;body&gt;&lt;/div&gt;",
+        "optionType": "Code/HTML snippets"
+      },
+      {
+        "optionId": 4,
+        "option": "&lt;span&gt;&lt;/div&gt;",
+        "optionType": "Code/HTML snippets"
+      },
+      {
+        "optionId": 5,
+        "option": "All of the above [Always the 5th option]",
+        "optionType": "Textual or numeric",
+        "fix": 5
+      }
+    ]
+  },
+  {
+    "questionId": 13,
+    "question": [
+      {
+        "content": "Which is the logo of Apple?",
+        "contentType": "Textual or numeric"
+      }
+    ],
+    "optionType": "Single choice",
+    "correctOptionId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "https://viterbicareers.usc.edu/wp-content/uploads/2018/11/Apple-Logo-black.png",
+        "optionType": "Image-based"
+      },
+      {
+        "optionId": 2,
+        "option": "https://images.theconversation.com/files/93616/original/image-20150902-6700-t2axrz.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip",
+        "optionType": "Image-based"
+      },
+      {
+        "optionId": 3,
+        "option": "https://www.bbb.org/ProfileImages/9df67f12-b9f7-40dd-9bb5-1872ad566843.png",
+        "optionType": "Image-based"
+      },
+      {
+        "optionId": 4,
+        "option": "https://i.pinimg.com/originals/be/fc/e9/befce9dbc01d2615138ed3cd5f16cf70.png",
+        "optionType": "Image-based"
+      }
+    ]
+  },
+  {
+    "questionId": 14,
+    "question": [
+      {
+        "content": "Which is the logo of Google?",
+        "contentType": "Textual or numeric"
+      }
+    ],
+    "optionType": "Single choice",
+    "correctOptionId": 2,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "https://viterbicareers.usc.edu/wp-content/uploads/2018/11/Apple-Logo-black.png",
+        "optionType": "Image-based"
+      },
+      {
+        "optionId": 2,
+        "option": "https://images.theconversation.com/files/93616/original/image-20150902-6700-t2axrz.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip",
+        "optionType": "Image-based"
+      },
+      {
+        "optionId": 3,
+        "option": "https://www.bbb.org/ProfileImages/9df67f12-b9f7-40dd-9bb5-1872ad566843.png",
+        "optionType": "Image-based"
+      },
+      {
+        "optionId": 4,
+        "option": "https://i.pinimg.com/originals/be/fc/e9/befce9dbc01d2615138ed3cd5f16cf70.png",
+        "optionType": "Image-based"
+      }
+    ]
+  },
+  {
+    "questionId": 15,
+    "question": [
+      {
+        "content": "Which is the logo of Ideal Concepts?",
+        "contentType": "Textual or numeric"
+      }
+    ],
+    "optionType": "Single choice",
+    "correctOptionId": 3,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "https://viterbicareers.usc.edu/wp-content/uploads/2018/11/Apple-Logo-black.png",
+        "optionType": "Image-based"
+      },
+      {
+        "optionId": 2,
+        "option": "https://images.theconversation.com/files/93616/original/image-20150902-6700-t2axrz.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip",
+        "optionType": "Image-based"
+      },
+      {
+        "optionId": 3,
+        "option": "https://www.bbb.org/ProfileImages/9df67f12-b9f7-40dd-9bb5-1872ad566843.png",
+        "optionType": "Image-based"
+      },
+      {
+        "optionId": 4,
+        "option": "https://i.pinimg.com/originals/be/fc/e9/befce9dbc01d2615138ed3cd5f16cf70.png",
+        "optionType": "Image-based"
+      }
+    ]
+  },
+  {
+    "questionId": 16,
+    "question": [
+      {
+        "content": "Which is the logo of Amazon?",
+        "contentType": "Textual or numeric"
+      }
+    ],
+    "optionType": "Single choice",
+    "correctOptionId": 4,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "https://viterbicareers.usc.edu/wp-content/uploads/2018/11/Apple-Logo-black.png",
+        "optionType": "Image-based"
+      },
+      {
+        "optionId": 2,
+        "option": "https://images.theconversation.com/files/93616/original/image-20150902-6700-t2axrz.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip",
+        "optionType": "Image-based"
+      },
+      {
+        "optionId": 3,
+        "option": "https://www.bbb.org/ProfileImages/9df67f12-b9f7-40dd-9bb5-1872ad566843.png",
+        "optionType": "Image-based"
+      },
+      {
+        "optionId": 4,
+        "option": "https://i.pinimg.com/originals/be/fc/e9/befce9dbc01d2615138ed3cd5f16cf70.png",
+        "optionType": "Image-based"
+      }
+    ]
+  },
+  {
+    "questionId": 17,
+    "question": [
+      {
+        "content": "What of the following is the default value of an instance variable in Java?",
+        "contentType": "Textual or numeric"
+      }
+    ],
+    "optionType": "Single choice",
+    "correctOptionId": 3,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "null",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 2,
+        "option": 0,
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 3,
+        "option": "Depends upon the type of variable",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 4,
+        "option": "Not assigned",
+        "optionType": "Textual or numeric"
+      }
+    ]
+  },
+  {
+    "questionId": 18,
+    "question": [
+      {
+        "content": "What is the size of char variable in Java?",
+        "contentType": "Textual or numeric"
+      }
+    ],
+    "optionType": "Single choice",
+    "correctOptionId": 2,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "8 bit",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 2,
+        "option": "16 bit",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 3,
+        "option": "32 bit",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 4,
+        "option": "64 bit",
+        "optionType": "Textual or numeric"
+      }
+    ]
+  },
+  {
+    "questionId": 19,
+    "question": [
+      {
+        "content": "What is the default value of int variable in Java?",
+        "contentType": "Textual or numeric"
+      }
+    ],
+    "optionType": "Single choice",
+    "correctOptionId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": 0,
+        "optionType": "Code/HTML snippets"
+      },
+      {
+        "optionId": 2,
+        "option": "0.0",
+        "optionType": "Code/HTML snippets"
+      },
+      {
+        "optionId": 3,
+        "option": "null",
+        "optionType": "Code/HTML snippets"
+      },
+      {
+        "optionId": 4,
+        "option": "undefined",
+        "optionType": "Code/HTML snippets"
+      }
+    ]
+  },
+  {
+    "questionId": 20,
+    "question": [
+      {
+        "content": "OOP features are",
+        "contentType": "Textual or numeric"
+      },
+      {
+        "content": "i) Increasing productivity",
+        "contentType": "Textual or numeric"
+      },
+      {
+        "content": "ii) Reusability",
+        "contentType": "Textual or numeric"
+      },
+      {
+        "content": "iii) Decreasing maintenance cost",
+        "contentType": "Textual or numeric"
+      },
+      {
+        "content": "iv) High vulnerability",
+        "contentType": "Textual or numeric"
+      }
+    ],
+    "optionType": "Single choice",
+    "correctOptionId": 2,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "1,2 & 4",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 2,
+        "option": "1,2 & 3",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 3,
+        "option": "1,2 & 4",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 4,
+        "option": "none of the above [Always the 4th option]",
+        "optionType": "Textual or numeric",
+        "fix": 4
+      }
+    ]
+  },
+  {
+    "questionId": 21,
+    "question": [
+      {
+        "content": "break",
+        "contentType": "Code/HTML snippets"
+      },
+      {
+        "content": "statement is used to",
+        "contentType": "Textual or numeric"
+      },
+      {
+        "content": "i) get out of method",
+        "contentType": "Textual or numeric"
+      },
+      {
+        "content": "ii) end a program",
+        "contentType": "Textual or numeric"
+      },
+      {
+        "content": "iii) get out of a loop",
+        "contentType": "Textual or numeric"
+      },
+      {
+        "content": "iv) get out of the system",
+        "contentType": "Textual or numeric"
+      }
+    ],
+    "optionType": "Single choice",
+    "correctOptionId": 4,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "1 & 2",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 2,
+        "option": "1,2 & 3",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 3,
+        "option": "1 & 3",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 4,
+        "option": "3",
+        "optionType": "Textual or numeric"
+      }
+    ]
+  },
+  {
+    "questionId": 22,
+    "question": [
+      {
+        "content": "The command ",
+        "contentType": "Textual or numeric"
+      },
+      {
+        "content": "javac",
+        "contentType": "Code/HTML snippets"
+      }
+    ],
+    "optionType": "Single choice",
+    "correctOptionId": 2,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Converts a java program into binary code",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 2,
+        "option": "Converts a java program into bytecode",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 3,
+        "option": "Converts a java program into machine language",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 4,
+        "option": "None of the above. [Always the 4th option]",
+        "optionType": "Textual or numeric",
+        "fix": 4
+      }
+    ]
+  },
+  {
+    "questionId": 23,
+    "question": [
+      {
+        "content": "Which of the following is not the Java primitive type",
+        "contentType": "Textual or numeric"
+      }
+    ],
+    "optionType": "Single choice",
+    "correctOptionId": 4,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Byte",
+        "optionType": "Code/HTML snippets"
+      },
+      {
+        "optionId": 2,
+        "option": "Float",
+        "optionType": "Code/HTML snippets"
+      },
+      {
+        "optionId": 3,
+        "option": "Character",
+        "optionType": "Code/HTML snippets"
+      },
+      {
+        "optionId": 4,
+        "option": "Long double",
+        "optionType": "Code/HTML snippets"
+      }
+    ]
+  },
+  {
+    "questionId": 24,
+    "question": [
+      {
+        "content": "Command to execute compiled java program is",
+        "contentType": "Textual or numeric"
+      }
+    ],
+    "optionType": "Single choice",
+    "correctOptionId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "java",
+        "optionType": "Code/HTML snippets"
+      },
+      {
+        "optionId": 2,
+        "option": "javac",
+        "optionType": "Code/HTML snippets"
+      },
+      {
+        "optionId": 3,
+        "option": "run",
+        "optionType": "Code/HTML snippets"
+      },
+      {
+        "optionId": 4,
+        "option": "javaw",
+        "optionType": "Code/HTML snippets"
+      }
+    ]
+  },
+  {
+    "questionId": 25,
+    "question": [
+
+      {
+        "content": "Java Servlet",
+        "contentType": "Textual or numeric"
+      },
+      {
+        "content": "i) is a key component of server-side Java development",
+        "contentType": "Textual or numeric"
+      },
+      {
+        "content": "ii) is a small pluggable extension to a server that enhances functionality",
+        "contentType": "Textual or numeric"
+      },
+      {
+        "content": "iii) runs only in Windows Operating System",
+        "contentType": "Textual or numeric"
+      },
+      {
+        "content": "iv) allows developers to customize any java enabled server",
+        "contentType": "Textual or numeric"
+      }
+    ],
+    "optionType": "Single choice",
+    "correctOptionId": 4,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "i, ii & iii are true",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 2,
+        "option": "i, iii & iv are true",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 3,
+        "option": "ii, iii & iv are true",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 4,
+        "option": "i, ii & iv are true",
+        "optionType": "Textual or numeric"
+      }
+    ]
+  },
+  {
+    "questionId": 26,
+    "question": [
+      {
+        "content": "How many times does the following code segment execute",
+        "contentType": "Textual or numeric"
+      },
+      {
+        "content": "int x=1, y=10, z=1;",
+        "contentType": "Code/HTML snippets"
+      },
+      {
+        "content": "do{y--; x++; y-=2; y=z; z++} while (y>1 && z<10);",
+        "contentType": "Code/HTML snippets"
+      }
+    ],
+    "optionType": "Single choice",
+    "correctOptionId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "1",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 2,
+        "option": "10",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 3,
+        "option": "5",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 4,
+        "option": "infinite",
+        "optionType": "Textual or numeric"
+      }
+    ]
+  },
+  {
+    "questionId": 27,
+    "question": [
+      {
+        "content": "EJB exists in the middle-tier",
+        "contentType": "Textual or numeric"
+      }
+    ],
+    "optionType": "True/False",
+    "correctOptionId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "True",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 2,
+        "option": "False",
+        "optionType": "Textual or numeric"
+      }
+    ]
+  },
+  {
+    "questionId": 28,
+    "question": [
+      {
+        "content": "EJB specifies an execution environment",
+        "contentType": "Textual or numeric"
+      }
+    ],
+    "optionType": "True/False",
+    "correctOptionId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "True",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 2,
+        "option": "False",
+        "optionType": "Textual or numeric"
+      }
+    ]
+  },
+  {
+    "questionId": 29,
+    "question": [
+      {
+        "content": "EJB supports transaction processing",
+        "contentType": "Textual or numeric"
+      }
+    ],
+    "optionType": "True/False",
+    "correctOptionId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "True",
+        "optionType": "Textual or numeric"
+      },
+      {
+        "optionId": 2,
+        "option": "False",
+        "optionType": "Textual or numeric"
+      }
+    ]
+  },
+  {
+    "questionId": 30,
+    "question": [
+      {
+        "content": "All Java classes are derived from",
+        "contentType": "Textual or numeric"
+      }
+    ],
+    "optionType": "Single choice",
+    "correctOptionId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "java.lang.Class",
+        "optionType": "Code/HTML snippets"
+      },
+      {
+        "optionId": 2,
+        "option": "java.util.Name",
+        "optionType": "Code/HTML snippets"
+      },
+      {
+        "optionId": 3,
+        "option": "java.lang.Object",
+        "optionType": "Code/HTML snippets"
+      },
+      {
+        "optionId": 4,
+        "option": "java.awt.Window",
+        "optionType": "Code/HTML snippets"
+      }
+    ]
+  }
+
+
+]
